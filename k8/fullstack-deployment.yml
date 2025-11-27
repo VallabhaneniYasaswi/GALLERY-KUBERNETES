@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: vallabhaneniyasaswi/2300032494-lab-backend:latest  # <-- change this
+          image: vallabhaneniyasaswi/gallery-kubernetes-fullstack-backend:latest  # <-- change this
           ports:
             - containerPort: 7007
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: vallabhaneniyasaswi/2300032494-lab-frontend:latest  # <-- change this
+          image: vallabhaneniyasaswi/gallery-kubernetes-fullstack-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
 ---
