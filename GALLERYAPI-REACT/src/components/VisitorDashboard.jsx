@@ -109,7 +109,7 @@ export default class VisitorDashboard extends Component {
         </nav>
 
           <div className="dashboard-content">
-            <h2>Welcome, {fullname}!</h2>
+            <h2>Welcome, {fullname},CSE</h2>
             <p>This is your <strong>Visitor Dashboard</strong> for the Gallery App.</p>
 
             <div className="visitor-dashboard">
